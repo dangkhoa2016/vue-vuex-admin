@@ -1,0 +1,14 @@
+// Define variable defaults
+// $body-bg: #000;
+// $body-color: #111;
+
+// Then import Bootstrap an BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+// Import stylesheet
+@import 'node_modules/vue-loading-overlay/dist/vue-loading';
+
+a.nav-link.router-link-exact-active.router-link-active {
+    color: #fff;
+    background-color: #007bff;
+}
